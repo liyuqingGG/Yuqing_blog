@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: Yuqing-bolg
+heroText: Yuqing-blog
 tagline: 学而不思则罔，思而不学则殆。
 # actionText: 立刻进入 →
 # actionLink: /web/

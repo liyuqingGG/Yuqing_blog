@@ -19,59 +19,63 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
     }
   },
-  // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+  
+   base: '/Yuqing_blog/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
 
   // 主题配置
   themeConfig: {
     // 导航配置
     nav: [
-      { text: '首页', link: '/' },
-      {
-        text: '前端',
-        link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-        items: [
-          // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-          {
-            text: '前端文章',
-            items: [
-              { text: 'JavaScript', link: '/pages/a61298/' },
-            ],
-          },
-          {
-            text: '《git》',
-            items: [
-              { text: 'git学习笔记', link: '/note/git/' },
-            ],
-          },
-        ],
+      
+      { 
+        text: '首页',
+        link: '/',
+        // items: [
+        //   { text: '前端文章', link: 'pages/a61298/' },
+    
+        // ],
       },
+      // {
+      //   text: '前端',
+      //   link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+      //   items: [
+      //     // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
+      //     {
+      //       text: '前端文章',
+      //       items: [
+      //         { text: 'JavaScript', link: '/pages/a61298/' },
+      //       ],
+      //     },
+      //     {
+      //       text: '《git》',
+      //       items: [
+      //         { text: 'git学习笔记', link: '/note/git/' },
+      //       ],
+      //     },
+      //   ],
+      // },
       {
         text: '页面',
         link: '/ui/',
         items: [
+          { text: '前端文章', link: '/pages/a61298/' },
           { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+          
         ],
       },
       {
         text: '技术',
         link: '/technology/',
         items: [
-          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-          { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+          { text: 'git相关', link: '/pages/3ac5a6/' }
         ],
       },
       {
         text: '更多',
         link: '/more/',
         items: [
-          { text: '学习', link: '/pages/f2a556/' },
-          { text: '面试', link: '/pages/aea6571b7a8bae86/' },
-          { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
-          { text: '实用技巧', link: '/pages/baaa02/' },
-          { text: '友情链接', link: '/friends/' },
+          { text: '实用技巧', link: '/pages/baaa02/' }
+          
         ],
       },
       { text: '关于', link: '/about/' },
@@ -96,7 +100,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'liyuqingGG/yuqing_bolg', // 导航栏右侧生成Github链接
+    repo: 'liyuqingGG/Yuqing_blog', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -142,9 +146,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: '/img/me.png',
+      avatar: 'https://cdn.jsdelivr.net/gh/liyuqinggg/cdn@1.0/me.png',
       name: 'Yuqing Li',
-      slogan: '前端界的小学生',
+      slogan: '业精于勤荒于嬉',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -154,7 +158,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:894072666@qq.com',
+          link: 'mailto:liyuqinggg@foxmail.com',
         },
         {
           iconClass: 'icon-github',
@@ -164,14 +168,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-erji',
           title: '听音乐',
-          link: 'https://music.163.com/#/playlist?id=755597173',
+          link: 'https://music.163.com/#/playlist?id=6954319449',
         },
       ],
     },
 
     // 页脚信息
     footer: {
-      createYear: 2019, // 博客创建年份
+      createYear: 2022, // 博客创建年份
       copyrightInfo:
         'Yuqing Li | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">家里蹲</a>', // 博客版权信息，支持a标签或换行标签</br>
     },
@@ -182,7 +186,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   head: [
-    ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'icon', href: '/img/logo.png' }], //favicons，资源放在public文件夹
     [
       'meta',
       {
@@ -297,14 +301,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     //     },
     //   },
     // ],
-    [
-      '@vuepress/last-updated', // "上次更新"时间格式
-      {
-        transformer: (timestamp, lang) => {
-          return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
-        },
-      },
-    ],
+    // [
+    //   '@vuepress/last-updated', // "上次更新"时间格式
+    //   {
+    //     transformer: (timestamp, lang) => {
+    //       return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
+    //     },
+    //   },
+    // ],
   ],
 
   markdown: {
