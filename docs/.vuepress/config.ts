@@ -67,7 +67,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '技术',
         link: '/technology/',
         items: [
-          { text: 'git相关', link: '/pages/3ac5a6/' }
+          { text: 'git相关', link: '/pages/3ac5a6/' },
+          { text: 'mysql相关', link: '/pages/1ba760/' }
         ],
       },
       {
@@ -102,7 +103,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     logo: '/img/logo.png', // 导航栏logo
     repo: 'liyuqingGG/Yuqing_blog', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
-    lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
+    // lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
     editLinks: true, // 启用编辑
     editLinkText: '编辑',
