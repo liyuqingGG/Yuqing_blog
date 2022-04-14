@@ -55,8 +55,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       //   ],
       // },
       {
-        text: '页面',
-        link: '/ui/',
+        text: '前端',
+        link: '/web',
         items: [
           { text: '前端文章', link: '/pages/a61298/' },
           { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
@@ -68,7 +68,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/technology/',
         items: [
           { text: 'git相关', link: '/pages/3ac5a6/' },
-          { text: 'mysql相关', link: '/pages/1ba760/' }
+          { text: 'mysql相关', link: '/pages/1ba760/' },
+          { text:'python', link:'/pages/f95cf0/'}
         ],
       },
       {
