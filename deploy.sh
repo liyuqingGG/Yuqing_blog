@@ -31,7 +31,7 @@ cd docs/.vuepress/dist
 # git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 git init
 git add -A
-git commit -m '新增django_01'
+git commit -m 'jmeter'
 
 
 git push -f git@github.com:liyuqingGG/Yuqing_blog.git master:gh-pages
