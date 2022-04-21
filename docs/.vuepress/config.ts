@@ -66,7 +66,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       //   ],
       // },
       {
-        text: '',
+        text: '记录',
         link: '/technology/',
         items: [
           { text: 'git相关', link: '/pages/3ac5a6/' },
@@ -74,14 +74,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'python', link:'/pages/f95cf0/'}
         ],
       },
-      {
-        text: '更多',
-        link: '/more/',
-        items: [
-          { text: '实用技巧', link: '/pages/baaa02/' }
+      // {
+      //   text: '更多',
+      //   link: '/more/',
+      //   items: [
+      //     { text: '实用技巧', link: '/pages/baaa02/' }
           
-        ],
-      },
+      //   ],
+      // },
       { text: '关于', link: '/about/' },
       {
         text: '收藏',
