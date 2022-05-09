@@ -68,11 +68,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: '记录',
         link: '/technology/',
-        items: [
-          { text: 'git相关', link: '/pages/3ac5a6/' },
-          { text: 'mysql相关', link: '/pages/1ba760/' },
-          { text: 'python', link:'/pages/f95cf0/'}
-        ],
+        // items: [
+        //   { text: 'git相关', link: '/pages/3ac5a6/' },
+        //   { text: 'mysql相关', link: '/pages/1ba760/' },
+        //   { text: 'python', link:'/pages/f95cf0/'}
+        // ],
       },
       // {
       //   text: '更多',
