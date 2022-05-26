@@ -150,7 +150,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://cdn.jsdelivr.net/gh/liyuqinggg/cdn@1.0/me.png',
+      avatar: 'https://fastly.jsdelivr.net/gh/liyuqinggg/cdn@1.0/me.png',
       name: 'Yuqing Li',
       slogan: '业精于勤荒于嬉',
     },
